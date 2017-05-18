@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "PageScrollManager"
-  s.version      = "0.0.1"
+  s.version      = "0.2.1"
   s.summary      = "PageScrollManager is a library control PageViewController."
 
   s.homepage     = "https://github.com/nlucky/PageScrollManager"
