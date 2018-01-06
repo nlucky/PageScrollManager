@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/nlucky/PageScrollManager"
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = 'MIT'
 
   s.author             = { "Cocoa" => "dcj0928@163.com" }
 
@@ -24,12 +24,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/nlucky/PageScrollManager.git", :tag => s.version.to_s }
 
   s.source_files = 'Sources/**/*.swift'
-
-  s.dependency 'Fabric', '1.6.11'
-  s.dependency 'Crashlytics', '3.8.4'
-
-  s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '3.0',
-  }
+  s.requires_arc = true
 
 end
